@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*font-family: "Outfit", sans-serif;    TITOLI*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*font-family: 'Inter', sans-serif;      CORPO */
+
+body {
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  color: white;
+  margin: 0;
+}
+header div img {
+  width: 15%;
+  height: 15%;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+}
+
+main div h1 {
+  font-size: 5em;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 70%;
+  margin-left: 10%;
+}
+span {
+  font-weight: bold;
+}
+main div h5 {
+  color: #d20094;
+  font-family: "Outfit", sans-serif;
+  font-size: 2em;
+  margin-left: 10%;
+  margin-bottom: 0;
+}
+
+.firstP {
+  font-family: "Inter", sans-serif;
+  padding-left: 10%;
+  margin-top: 4px;
+}
+
+main div ul {
+  margin-top: 3%;
+}
+main div ul li {
+  font-family: "Inter", sans-serif;
+  margin-left: 9%;
+  line-height: 25px;
+}
+
+.button {
+  display: inline-block;
+  background-color: transparent;
+  padding: 20px 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-left: 700px;
+  color: white;
+  font-size: 1.7em;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-left: 700px;
+}
+form {
+  display: inline-block;
+}
+.button:hover {
+  box-shadow: #00ffff 0px 0px 30px 0px, #00ffff 0px 0px 0px 1px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.7em;
+  background-color: #00ffff;
+}
+form p {
+  display: inline-block;
+}
+footer form {
+  margin-left: 10%;
+  margin-top: 10vh;
+  margin-bottom: 17vh;
+  display: inline-block;
+  font-family: "Outfit", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+/* #field_terms input[type="checkbox"] {
+  display: none;
+}
+#field_terms input[type="checkbox"] + label span {
+  display: inline-block;
+
+  width: 15px;
+  height: 15px;
+  margin-left: 125px;
+  vertical-align: middle;
+  background: #ffffff;
+
+  border: solid white 2px;
+}
+#field_terms input[type="checkbox"]:checked + label span {
+  background: #0c113b;
+} */
+
+#field_terms {
+  -webkit-appearance: none;
+  border: 2px solid white;
+  padding: 8px;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+#field_terms:active,
+#field_terms:checked {
+  background-color: white;
+}
+
+label {
+  font-weight: 500;
+}
